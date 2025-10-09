@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitness Tracker", "Fitness Tracker.csproj", "{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "..\BILL\BLL.csproj", "{944C97C3-4B8C-478E-89E0-C08F761E2032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{C50289CC-DA37-443F-B3FB-AD7F852B7B06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944C97C3-4B8C-478E-89E0-C08F761E2032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944C97C3-4B8C-478E-89E0-C08F761E2032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944C97C3-4B8C-478E-89E0-C08F761E2032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944C97C3-4B8C-478E-89E0-C08F761E2032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50289CC-DA37-443F-B3FB-AD7F852B7B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50289CC-DA37-443F-B3FB-AD7F852B7B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50289CC-DA37-443F-B3FB-AD7F852B7B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50289CC-DA37-443F-B3FB-AD7F852B7B06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD1E1DA2-0801-4842-B241-270DFEE53C64}
+	EndGlobalSection
+EndGlobal

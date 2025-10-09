@@ -1,0 +1,12 @@
+E:\Fitness Tracker App\Fitness-Tracker\DAL\bin\Debug\DAL.dll.config
+E:\Fitness Tracker App\Fitness-Tracker\DAL\bin\Debug\DAL.dll
+E:\Fitness Tracker App\Fitness-Tracker\DAL\bin\Debug\DAL.pdb
+E:\Fitness Tracker App\Fitness-Tracker\DAL\bin\Debug\EntityFramework.dll
+E:\Fitness Tracker App\Fitness-Tracker\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fitness Tracker App\Fitness-Tracker\DAL\bin\Debug\EntityFramework.xml
+E:\Fitness Tracker App\Fitness-Tracker\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.csproj.Up2Date
+E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.dll
+E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.pdb

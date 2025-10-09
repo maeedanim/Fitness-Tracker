@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DAL.Models
+{
+    public class Userworkout
+    {
+        [Key]
+        public int Id { get; set; }
+
+        [ForeignKey("User")]
+        public int UserId { get; set; }
+
+        [ForeignKey("Workout")]
+        public int WorkoutId { get; set; }
+
+        [Required]
+        public int BurnedCalories { get; set; }
+
+        [Required]
+        public DateTime Date { get; set; }
+
+        public virtual User User { get; set; }
+        public virtual Workout Workout { get; set; }
+
+
+        public virtual ICollection<Workout> UserWorkouts { get; set; }
+
+        public Userworkout()
+        {
+            UserWorkouts = new List<Workout>();
+        }
+
+    }
+}
