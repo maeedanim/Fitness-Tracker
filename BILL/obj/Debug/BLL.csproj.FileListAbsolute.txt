@@ -1,0 +1,14 @@
+E:\Fitness Tracker App\Fitness-Tracker\BILL\bin\Debug\BILL.dll
+E:\Fitness Tracker App\Fitness-Tracker\BILL\bin\Debug\BILL.pdb
+E:\Fitness Tracker App\Fitness-Tracker\BILL\bin\Debug\DAL.dll
+E:\Fitness Tracker App\Fitness-Tracker\BILL\bin\Debug\EntityFramework.dll
+E:\Fitness Tracker App\Fitness-Tracker\BILL\bin\Debug\DAL.pdb
+E:\Fitness Tracker App\Fitness-Tracker\BILL\bin\Debug\DAL.dll.config
+E:\Fitness Tracker App\Fitness-Tracker\BILL\bin\Debug\EntityFramework.xml
+E:\Fitness Tracker App\Fitness-Tracker\BILL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Fitness Tracker App\Fitness-Tracker\BILL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Fitness Tracker App\Fitness-Tracker\BILL\obj\Debug\BLL.csproj.Up2Date
+E:\Fitness Tracker App\Fitness-Tracker\BILL\obj\Debug\BILL.dll
+E:\Fitness Tracker App\Fitness-Tracker\BILL\obj\Debug\BILL.pdb
+E:\Fitness Tracker App\Fitness-Tracker\BILL\bin\Debug\AutoMapper.dll
+E:\Fitness Tracker App\Fitness-Tracker\BILL\bin\Debug\AutoMapper.xml

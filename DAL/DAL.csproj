@@ -51,22 +51,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccessFactory.cs" />
     <Compile Include="FTContext.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="Interfaces\IRepo.cs" />
+    <Compile Include="Migrations\202510100828314_initDB.cs" />
+    <Compile Include="Migrations\202510100828314_initDB.Designer.cs">
+      <DependentUpon>202510100828314_initDB.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Goal.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\Userworkout.cs" />
     <Compile Include="Models\Workout.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\GoalRepo.cs" />
+    <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\UserRepo.cs" />
+    <Compile Include="Repos\UserworkoutRepo.cs" />
+    <Compile Include="Repos\WorkoutRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Repos\" />
+    <EmbeddedResource Include="Migrations\202510100828314_initDB.resx">
+      <DependentUpon>202510100828314_initDB.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

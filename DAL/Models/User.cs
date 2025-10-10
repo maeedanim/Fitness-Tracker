@@ -36,5 +36,15 @@ namespace DAL.Models
         [Required]
         public DateTime CreatedAt { get; set; }
 
+
+
+        public virtual ICollection<Userworkout> Userworkouts { get; set; }
+
+        public User()
+        {
+            Userworkouts = new List<Userworkout>();
+        }
+
+
     }
 }

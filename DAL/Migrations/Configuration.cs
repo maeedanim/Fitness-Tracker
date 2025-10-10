@@ -14,6 +14,11 @@
 
         protected override void Seed(DAL.FTContext context)
         {
+            //  This method will be called after migrating to the latest version.
+
+            //  You can use the DbSet<T>.AddOrUpdate() helper extension method
+            //  to avoid creating duplicate seed data.
+
             for (int i = 1; i <= 10; i++)
             {
                 context.Users.AddOrUpdate(new DAL.Models.User
@@ -31,6 +36,35 @@
 
 
             var random = new Random();
+
+            string[] difficultyLevels = { "Beginner", "Intermediate", "Advanced" };
+            string[] workoutTitles = {
+                    "Full Body Blast",
+                     "Morning Yoga",
+                        "Cardio Burn",
+                        "Leg Day Power",
+                      "Upper Body Strength",
+                            "HIIT Challenge",
+                          "Core Crusher",
+                            "Stretch & Flex",
+                            "Endurance Run",
+                               "Balance & Stability"
+};
+
+            for (int i = 0; i < 10; i++)
+            {
+                context.Workouts.AddOrUpdate(new DAL.Models.Workout
+                {
+                    Title = workoutTitles[i],
+                    Description = $"This is a {difficultyLevels[random.Next(difficultyLevels.Length)]} level workout focusing on {workoutTitles[i].ToLower()}. It helps improve strength, stamina, and overall fitness.",
+                    Duration = random.Next(20, 90),                   // between 20 and 90 minutes
+                    CaloriesBurned = random.Next(200, 700),           // estimated calories
+                    DifficultyLevel = difficultyLevels[random.Next(difficultyLevels.Length)]
+                });
+            }
+
+            context.SaveChanges();
+
 
             // Get all existing user IDs (so FK references are valid)
             var userIds = context.Users.Select(u => u.Id).ToList();
@@ -61,46 +95,32 @@
                 context.SaveChanges();
             }
 
-            for(int i = 1; i<10; i++)
-                {
-                context.Workouts.AddOrUpdate(new DAL.Models.Workout
-                {
-                    Title = "Workout " + i,
-                    Description = "This is a description for workout " + i,
-                    Duration = random.Next(20, 120), // Random duration between 20 and 120 minutes
-                    CaloriesBurned = random.Next(100, 1000) // Random calories burned between 100 and 1000
-                });
-            }
+            // Fetch valid foreign keys
+            var userId = context.Users.Select(u => u.Id).ToList();
+            var workoutIds = context.Workouts.Select(w => w.Id).ToList();
 
-            var random = new Random();
-
-            string[] difficultyLevels = { "Beginner", "Intermediate", "Advanced" };
-            string[] workoutTitles = {
-    "Full Body Blast",
-    "Morning Yoga",
-    "Cardio Burn",
-    "Leg Day Power",
-    "Upper Body Strength",
-    "HIIT Challenge",
-    "Core Crusher",
-    "Stretch & Flex",
-    "Endurance Run",
-    "Balance & Stability"
-};
-
-            for (int i = 0; i < 10; i++)
+            // Safety check — only seed if users and workouts exist
+            if (userId.Any() && workoutIds.Any())
             {
-                context.Workouts.AddOrUpdate(new DAL.Models.Workout
+                for (int i = 1; i <= 20; i++)  // Create 20 random user-workout logs
                 {
-                    Title = workoutTitles[i],
-                    Description = $"This is a {difficultyLevels[random.Next(difficultyLevels.Length)]} level workout focusing on {workoutTitles[i].ToLower()}. It helps improve strength, stamina, and overall fitness.",
-                    Duration = random.Next(20, 90),                   // between 20 and 90 minutes
-                    CaloriesBurned = random.Next(200, 700),           // estimated calories
-                    DifficultyLevel = difficultyLevels[random.Next(difficultyLevels.Length)]
-                });
+                    var randomUserId = userId[random.Next(userId.Count)];
+                    var randomWorkoutId = workoutIds[random.Next(workoutIds.Count)];
+
+                    context.Userworkouts.AddOrUpdate(new DAL.Models.Userworkout
+                    {
+                        UserId = randomUserId,
+                        WorkoutId = randomWorkoutId,
+                        BurnedCalories = random.Next(150, 700),             // realistic calorie burn
+                        Date = DateTime.Now.AddDays(-random.Next(1, 30))    // random date within last 30 days
+                    });
+                }
+
+                context.SaveChanges();
             }
 
-            context.SaveChanges();
+
+
 
 
 

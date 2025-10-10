@@ -28,9 +28,15 @@ namespace DAL.Models
         public int CaloriesBurned { get; set; } // Estimated calories burned
 
         public string DifficultyLevel { get; set; } // e.g., Beginner, Intermediate, Advanced
-        
 
 
-        
+        public virtual ICollection<Userworkout> Userworkouts { get; set; }
+
+        public Workout()
+        {
+            Userworkouts = new List<Userworkout>();
+        }
+
+
     }
 }

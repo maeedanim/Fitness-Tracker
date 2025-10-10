@@ -27,14 +27,5 @@ namespace DAL.Models
 
         public virtual User User { get; set; }
         public virtual Workout Workout { get; set; }
-
-
-        public virtual ICollection<Workout> UserWorkouts { get; set; }
-
-        public Userworkout()
-        {
-            UserWorkouts = new List<Workout>();
-        }
-
     }
 }
