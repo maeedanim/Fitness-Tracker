@@ -13,8 +13,6 @@ namespace BILL.DTOs
     {
        
         public int Id { get; set; }
-
-   
         public int UserId { get; set; }
 
         public string GoalType { get; set; } // e.g., Weight Loss, Muscle Gain, Endurance

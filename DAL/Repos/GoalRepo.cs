@@ -12,27 +12,40 @@ namespace DAL.Repos
     {
         public bool Create(Goal obj)
         {
-            throw new NotImplementedException();
+            db.Goals.Add(obj);
+            return db.SaveChanges() > 0;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var goal = Read(id);
+            if (goal != null)
+            {
+                db.Goals.Remove(goal);
+                return db.SaveChanges() > 0;
+            }
+            return false;
         }
 
         public List<Goal> Read()
         {
-            throw new NotImplementedException();
+            return db.Goals.ToList();
         }
 
         public Goal Read(int id)
         {
-            throw new NotImplementedException();
+            return db.Goals.Find(id);
         }
 
         public bool Update(Goal obj)
         {
-            throw new NotImplementedException();
+            var ex = Read(obj.Id);
+            if (ex != null)
+            {
+                db.Entry(ex).CurrentValues.SetValues(obj);
+                return db.SaveChanges() > 0;
+            }
+            return false;
         }
     }
 }

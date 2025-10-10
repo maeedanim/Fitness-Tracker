@@ -40,9 +40,16 @@ namespace DAL.Models
 
         public virtual ICollection<Userworkout> Userworkouts { get; set; }
 
+        public virtual ICollection<Goal> Goals { get; set; }
+
+        public virtual ICollection<Workout> Workouts { get; set; }
+
         public User()
         {
             Userworkouts = new List<Userworkout>();
+            Goals = new List<Goal>();
+            Workouts = new List<Workout>();
+
         }
 
 

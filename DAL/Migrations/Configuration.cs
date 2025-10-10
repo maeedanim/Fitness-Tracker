@@ -19,6 +19,7 @@
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.
 
+
             for (int i = 1; i <= 10; i++)
             {
                 context.Users.AddOrUpdate(new DAL.Models.User
@@ -118,13 +119,6 @@
 
                 context.SaveChanges();
             }
-
-
-
-
-
-
-
         }
     }
 }

@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class initDB : DbMigration
+    public partial class initdb : DbMigration
     {
         public override void Up()
         {
@@ -63,19 +63,41 @@
                         Duration = c.Int(nullable: false),
                         CaloriesBurned = c.Int(nullable: false),
                         DifficultyLevel = c.String(),
+                        User_Id = c.Int(),
                     })
-                .PrimaryKey(t => t.Id);
+                .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.Users", t => t.User_Id)
+                .Index(t => t.User_Id);
+            
+            CreateTable(
+                "dbo.Tokens",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        Tkey = c.String(nullable: false, maxLength: 100),
+                        CreatedAt = c.DateTime(nullable: false),
+                        Expiry = c.DateTime(),
+                        UserId = c.Int(nullable: false),
+                    })
+                .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.Users", t => t.UserId, cascadeDelete: true)
+                .Index(t => t.UserId);
             
         }
         
         public override void Down()
         {
+            DropForeignKey("dbo.Tokens", "UserId", "dbo.Users");
             DropForeignKey("dbo.Goals", "UserId", "dbo.Users");
+            DropForeignKey("dbo.Workouts", "User_Id", "dbo.Users");
             DropForeignKey("dbo.Userworkouts", "WorkoutId", "dbo.Workouts");
             DropForeignKey("dbo.Userworkouts", "UserId", "dbo.Users");
+            DropIndex("dbo.Tokens", new[] { "UserId" });
+            DropIndex("dbo.Workouts", new[] { "User_Id" });
             DropIndex("dbo.Userworkouts", new[] { "WorkoutId" });
             DropIndex("dbo.Userworkouts", new[] { "UserId" });
             DropIndex("dbo.Goals", new[] { "UserId" });
+            DropTable("dbo.Tokens");
             DropTable("dbo.Workouts");
             DropTable("dbo.Userworkouts");
             DropTable("dbo.Users");

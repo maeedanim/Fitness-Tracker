@@ -8,15 +8,15 @@ using System.Web.Http;
 
 namespace Fitness_Tracker.Controllers
 {
-    public class WorkoutController : ApiController
+    public class GoalController : ApiController
     {
         [HttpGet]
-        [Route("api/workout")]
-        public HttpResponseMessage Workout()
+        [Route("api/goal")]
+        public HttpResponseMessage Goal()
         {
             try
             {
-                var data = WorkoutService.Get();
+                var data = GoalService.Get();
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
@@ -27,12 +27,12 @@ namespace Fitness_Tracker.Controllers
 
 
         [HttpGet]
-        [Route("api/workout/{id}")]
-        public HttpResponseMessage Workout(int id)
+        [Route("api/Goal/{id}")]
+        public HttpResponseMessage Goal(int id)
         {
             try
             {
-                var data = WorkoutService.Get(id);
+                var data = GoalService.Get(id);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
@@ -40,24 +40,5 @@ namespace Fitness_Tracker.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
-
-
-        [HttpGet]
-        [Route("api/workout/{id}/userworkout")]
-        public HttpResponseMessage Workoutwithuserworkout(int id)
-        {
-            try
-            {
-                var data = WorkoutService.Getwithuserworkout(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
-            }
-        }
-
-
-
     }
 }

@@ -23,7 +23,7 @@ namespace BILL.DTOs
         public int CaloriesBurned { get; set; } // Estimated calories burned
         [Required]
         public string DifficultyLevel { get; set; } // e.g., Beginner, Intermediate, Advanced
-
+          
 
 
 

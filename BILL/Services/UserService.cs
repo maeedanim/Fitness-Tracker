@@ -2,7 +2,6 @@
 using BILL.DTOs;
 using DAL;
 using DAL.Models;
-using Microsoft.SqlServer.Server;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,48 +10,46 @@ using System.Threading.Tasks;
 
 namespace BILL.Services
 {
-    public class WorkoutService
+    public class UserService
     {
-        public static List<WorkoutDTO> Get()
+        public static List<UserDTO> Get()
         {
-            var data = DataAccessFactory.WorkoutData().Read();
+            var data = DataAccessFactory.UserData().Read();
             var cfg = new MapperConfiguration(c =>
             {
-                c.CreateMap<Workout, WorkoutDTO>();
+                c.CreateMap<User, UserDTO>();
 
             });
             var mapper = new Mapper(cfg);
-            var mapped = mapper.Map<List<WorkoutDTO>>(data);
+            var mapped = mapper.Map<List<UserDTO>>(data);
             return mapped;
 
         }
 
-        public static WorkoutDTO Get(int id)
+        public static UserDTO Get(int id)
         {
-            var data = DataAccessFactory.WorkoutData().Read(id);
+            var data = DataAccessFactory.UserData().Read(id);
             var cfg = new MapperConfiguration(c =>
             {
-                c.CreateMap<Workout, WorkoutDTO>();
+                c.CreateMap<User, UserDTO>();
             });
             var mapper = new Mapper(cfg);
-            var mapped = mapper.Map<WorkoutDTO>(data);
+            var mapped = mapper.Map<UserDTO>(data);
             return mapped;
         }
 
-
-        public static WorkoutUserWorkoutDTO Getwithuserworkout(int id)
+        public static UserwithUserWorkout GetUserwithuserworkout(int id)
         {
-            var data = DataAccessFactory.WorkoutData().Read(id);
+            var data = DataAccessFactory.UserData().Read(id);
             var cfg = new MapperConfiguration(c =>
             {
-                c.CreateMap<Workout, WorkoutUserWorkoutDTO>();
+                c.CreateMap<User, UserwithUserWorkout>();
+                c.CreateMap<Goal, GoalsDTO>();
                 c.CreateMap<Userworkout, UserWorkoutDTO>();
             });
             var mapper = new Mapper(cfg);
-            var mapped = mapper.Map<WorkoutUserWorkoutDTO>(data);
+            var mapped = mapper.Map<UserwithUserWorkout>(data);
             return mapped;
         }
-
-
     }
 }

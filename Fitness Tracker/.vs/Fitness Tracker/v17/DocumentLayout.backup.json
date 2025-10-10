@@ -10,34 +10,77 @@
       "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\services\\workoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\dtos\\goalsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\dtos\\userwithuserworkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\dtos\\workoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\dtos\\userworkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\models\\userworkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\models\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\services\\goalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\models\\userworkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\models\\workout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\repos\\goalrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}|Fitness Tracker.csproj|e:\\fitness tracker app\\fitness-tracker\\fitness tracker\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}|Fitness Tracker.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\migrations\\202510101923353_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}|Fitness Tracker.csproj|E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}|Fitness Tracker.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\ftcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\models\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\dtos\\workoutuserworkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\services\\userworkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\dtos\\userworkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\dtos\\workoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}|Fitness Tracker.csproj|e:\\fitness tracker app\\fitness-tracker\\fitness tracker\\controllers\\goalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}|Fitness Tracker.csproj|solutionrelative:controllers\\goalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\dtos\\usergoaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}|Fitness Tracker.csproj|e:\\fitness tracker app\\fitness-tracker\\fitness tracker\\controllers\\userworkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}|Fitness Tracker.csproj|solutionrelative:controllers\\userworkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\repos\\userworkoutrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -46,23 +89,16 @@
       "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\repos\\workoutrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\repos\\goalrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{944C97C3-4B8C-478E-89E0-C08F761E2032}|..\\BILL\\BLL.csproj|e:\\fitness tracker app\\fitness-tracker\\bill\\dtos\\goalsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\ftcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}|Fitness Tracker.csproj|E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{61EAC9C0-4C57-4FAC-8ED4-DF9C2691041F}|Fitness Tracker.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C50289CC-DA37-443F-B3FB-AD7F852B7B06}|..\\DAL\\DAL.csproj|e:\\fitness tracker app\\fitness-tracker\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,19 +108,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WorkoutController.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Controllers\\WorkoutController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WorkoutController.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Controllers\\WorkoutController.cs",
-              "RelativeToolTip": "Controllers\\WorkoutController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\BILL\\Services\\UserService.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\Services\\UserService.cs*",
+              "RelativeToolTip": "..\\BILL\\Services\\UserService.cs*",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwDAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T14:35:48.745Z",
+              "WhenOpened": "2025-10-10T17:34:52.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwDwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T17:35:32.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Workout.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Workout.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Models\\Workout.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Workout.cs",
+              "RelativeToolTip": "..\\DAL\\Models\\Workout.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T20:05:49.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Goal.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Goal.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Models\\Goal.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Goal.cs",
+              "RelativeToolTip": "..\\DAL\\Models\\Goal.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA7wA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T20:06:38.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Models\\User.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\User.cs",
+              "RelativeToolTip": "..\\DAL\\Models\\User.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T20:05:31.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\DataAccessFactory.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\DataAccessFactory.cs",
+              "RelativeToolTip": "..\\DAL\\DataAccessFactory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T12:15:41.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FTContext.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\FTContext.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\FTContext.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\FTContext.cs",
+              "RelativeToolTip": "..\\DAL\\FTContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T10:32:58.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Userworkout.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Userworkout.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Models\\Userworkout.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Userworkout.cs",
+              "RelativeToolTip": "..\\DAL\\Models\\Userworkout.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T20:06:12.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GoalService.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\Services\\GoalService.cs",
+              "RelativeDocumentMoniker": "..\\BILL\\Services\\GoalService.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\Services\\GoalService.cs",
+              "RelativeToolTip": "..\\BILL\\Services\\GoalService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T17:57:13.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserwithUserWorkout.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\UserwithUserWorkout.cs",
+              "RelativeDocumentMoniker": "..\\BILL\\DTOs\\UserwithUserWorkout.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\UserwithUserWorkout.cs",
+              "RelativeToolTip": "..\\BILL\\DTOs\\UserwithUserWorkout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T18:27:06.674Z",
               "EditorCaption": ""
             },
             {
@@ -95,14 +248,27 @@
               "RelativeDocumentMoniker": "..\\BILL\\Services\\WorkoutService.cs",
               "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\Services\\WorkoutService.cs",
               "RelativeToolTip": "..\\BILL\\Services\\WorkoutService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T14:14:36.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "WorkoutController.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Controllers\\WorkoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WorkoutController.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Controllers\\WorkoutController.cs",
+              "RelativeToolTip": "Controllers\\WorkoutController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T14:35:48.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "UserWorkoutDTO.cs",
               "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\UserWorkoutDTO.cs",
               "RelativeDocumentMoniker": "..\\BILL\\DTOs\\UserWorkoutDTO.cs",
@@ -115,85 +281,202 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GoalsDTO.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\GoalsDTO.cs",
-              "RelativeDocumentMoniker": "..\\BILL\\DTOs\\GoalsDTO.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\GoalsDTO.cs",
-              "RelativeToolTip": "..\\BILL\\DTOs\\GoalsDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Token.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Token.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Models\\Token.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Token.cs",
+              "RelativeToolTip": "..\\DAL\\Models\\Token.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T14:11:22.222Z",
+              "WhenOpened": "2025-10-10T19:07:26.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "..\\BILL\\DTOs\\UserDTO.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "..\\BILL\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "..\\DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAYwHgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T14:10:00.753Z",
+              "WhenOpened": "2025-10-10T19:22:19.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "202510101923353_initdb.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Migrations\\202510101923353_initdb.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Migrations\\202510101923353_initdb.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Migrations\\202510101923353_initdb.cs",
+              "RelativeToolTip": "..\\DAL\\Migrations\\202510101923353_initdb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T19:23:50.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WorkoutUserWorkoutDTO.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\WorkoutUserWorkoutDTO.cs",
+              "RelativeDocumentMoniker": "..\\BILL\\DTOs\\WorkoutUserWorkoutDTO.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\WorkoutUserWorkoutDTO.cs",
+              "RelativeToolTip": "..\\BILL\\DTOs\\WorkoutUserWorkoutDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T17:07:47.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAD4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-09T11:29:31.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "WorkoutDTO.cs",
               "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\WorkoutDTO.cs",
               "RelativeDocumentMoniker": "..\\BILL\\DTOs\\WorkoutDTO.cs",
               "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\WorkoutDTO.cs",
               "RelativeToolTip": "..\\BILL\\DTOs\\WorkoutDTO.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T14:05:16.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataAccessFactory.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\DataAccessFactory.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\DataAccessFactory.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\DataAccessFactory.cs",
-              "RelativeToolTip": "..\\DAL\\DataAccessFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "GoalController.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Controllers\\GoalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GoalController.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Controllers\\GoalController.cs",
+              "RelativeToolTip": "Controllers\\GoalController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T12:15:41.452Z",
+              "WhenOpened": "2025-10-10T17:56:44.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserworkoutRepo.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Repos\\UserworkoutRepo.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repos\\UserworkoutRepo.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Repos\\UserworkoutRepo.cs",
-              "RelativeToolTip": "..\\DAL\\Repos\\UserworkoutRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "UserWorkoutService.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\Services\\UserWorkoutService.cs",
+              "RelativeDocumentMoniker": "..\\BILL\\Services\\UserWorkoutService.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\Services\\UserWorkoutService.cs",
+              "RelativeToolTip": "..\\BILL\\Services\\UserWorkoutService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwCEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T12:11:41.344Z",
+              "WhenOpened": "2025-10-10T18:22:00.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
+              "Title": "UserWorkoutController.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Controllers\\UserWorkoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserWorkoutController.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Controllers\\UserWorkoutController.cs",
+              "RelativeToolTip": "Controllers\\UserWorkoutController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T18:21:13.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "..\\BILL\\DTOs\\UserDTO.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "..\\BILL\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T14:10:00.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserGoalDTO.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\UserGoalDTO.cs",
+              "RelativeDocumentMoniker": "..\\BILL\\DTOs\\UserGoalDTO.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\UserGoalDTO.cs",
+              "RelativeToolTip": "..\\BILL\\DTOs\\UserGoalDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T17:34:12.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GoalsDTO.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\GoalsDTO.cs",
+              "RelativeDocumentMoniker": "..\\BILL\\DTOs\\GoalsDTO.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\BILL\\DTOs\\GoalsDTO.cs",
+              "RelativeToolTip": "..\\BILL\\DTOs\\GoalsDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T14:11:22.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "GoalRepo.cs",
               "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Repos\\GoalRepo.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Repos\\GoalRepo.cs",
               "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Repos\\GoalRepo.cs",
               "RelativeToolTip": "..\\DAL\\Repos\\GoalRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwCkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T12:11:25.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
+              "Title": "UserworkoutRepo.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Repos\\UserworkoutRepo.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Repos\\UserworkoutRepo.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Repos\\UserworkoutRepo.cs",
+              "RelativeToolTip": "..\\DAL\\Repos\\UserworkoutRepo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T12:11:41.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Repos\\UserRepo.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Repos\\UserRepo.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Repos\\UserRepo.cs",
+              "RelativeToolTip": "..\\DAL\\Repos\\UserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T11:34:59.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "WorkoutRepo.cs",
               "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Repos\\WorkoutRepo.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Repos\\WorkoutRepo.cs",
@@ -206,7 +489,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Interfaces\\IRepo.cs",
+              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeToolTip": "..\\DAL\\Interfaces\\IRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T08:38:39.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "Repo.cs",
               "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Repos\\Repo.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Repos\\Repo.cs",
@@ -215,123 +511,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T11:35:29.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Repos\\UserRepo.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repos\\UserRepo.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Repos\\UserRepo.cs",
-              "RelativeToolTip": "..\\DAL\\Repos\\UserRepo.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T11:34:59.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IRepo.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Interfaces\\IRepo.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Interfaces\\IRepo.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Interfaces\\IRepo.cs",
-              "RelativeToolTip": "..\\DAL\\Interfaces\\IRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T08:38:39.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Goal.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Goal.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\Goal.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Goal.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\Goal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T20:06:38.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Userworkout.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Userworkout.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\Userworkout.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Userworkout.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\Userworkout.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T20:06:12.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FTContext.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\FTContext.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\FTContext.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\FTContext.cs",
-              "RelativeToolTip": "..\\DAL\\FTContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T10:32:58.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\User.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\User.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\User.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\User.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAswA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T20:05:31.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Web.config",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\Fitness Tracker\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAAD4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-09T11:29:31.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Workout.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Workout.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\Workout.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Models\\Workout.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\Workout.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAADwvwwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T20:05:49.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Migrations\\Configuration.cs",
-              "ToolTip": "E:\\Fitness Tracker App\\Fitness-Tracker\\DAL\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "..\\DAL\\Migrations\\Configuration.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAQwHgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T08:27:15.755Z",
               "EditorCaption": ""
             }
           ]

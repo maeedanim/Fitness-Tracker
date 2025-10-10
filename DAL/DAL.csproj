@@ -54,12 +54,13 @@
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="FTContext.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
-    <Compile Include="Migrations\202510100828314_initDB.cs" />
-    <Compile Include="Migrations\202510100828314_initDB.Designer.cs">
-      <DependentUpon>202510100828314_initDB.cs</DependentUpon>
+    <Compile Include="Migrations\202510101923353_initdb.cs" />
+    <Compile Include="Migrations\202510101923353_initdb.Designer.cs">
+      <DependentUpon>202510101923353_initdb.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Goal.cs" />
+    <Compile Include="Models\Token.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\Userworkout.cs" />
     <Compile Include="Models\Workout.cs" />
@@ -74,10 +75,9 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202510100828314_initDB.resx">
-      <DependentUpon>202510100828314_initDB.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202510101923353_initdb.resx">
+      <DependentUpon>202510101923353_initdb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

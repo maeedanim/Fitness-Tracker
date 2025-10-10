@@ -48,9 +48,15 @@
     <Compile Include="Class1.cs" />
     <Compile Include="DTOs\GoalsDTO.cs" />
     <Compile Include="DTOs\UserDTO.cs" />
+    <Compile Include="DTOs\UserGoalDTO.cs" />
+    <Compile Include="DTOs\UserwithUserWorkout.cs" />
     <Compile Include="DTOs\UserWorkoutDTO.cs" />
     <Compile Include="DTOs\WorkoutDTO.cs" />
+    <Compile Include="DTOs\WorkoutUserWorkoutDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\GoalService.cs" />
+    <Compile Include="Services\UserService.cs" />
+    <Compile Include="Services\UserWorkoutService.cs" />
     <Compile Include="Services\WorkoutService.cs" />
   </ItemGroup>
   <ItemGroup>

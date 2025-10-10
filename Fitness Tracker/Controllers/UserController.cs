@@ -8,15 +8,15 @@ using System.Web.Http;
 
 namespace Fitness_Tracker.Controllers
 {
-    public class WorkoutController : ApiController
+    public class UserController : ApiController
     {
         [HttpGet]
-        [Route("api/workout")]
-        public HttpResponseMessage Workout()
+        [Route("api/user")]
+        public HttpResponseMessage Users()
         {
             try
             {
-                var data = WorkoutService.Get();
+                var data = UserService.Get();
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
@@ -27,12 +27,27 @@ namespace Fitness_Tracker.Controllers
 
 
         [HttpGet]
-        [Route("api/workout/{id}")]
-        public HttpResponseMessage Workout(int id)
+        [Route("api/user/{id}")]
+        public HttpResponseMessage Users(int id)
         {
             try
             {
-                var data = WorkoutService.Get(id);
+                var data = UserService.Get(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpGet]
+        [Route("api/user/{id}/userworkout")]
+        public HttpResponseMessage Userwithuserworkout(int id)
+        {
+            try
+            {
+                var data = UserService.GetUserwithuserworkout(id);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
@@ -43,12 +58,12 @@ namespace Fitness_Tracker.Controllers
 
 
         [HttpGet]
-        [Route("api/workout/{id}/userworkout")]
-        public HttpResponseMessage Workoutwithuserworkout(int id)
+        [Route("api/user/{id}/userworkout/goal/workout")]
+        public HttpResponseMessage Userwithuserworkoutgoals(int id)
         {
             try
             {
-                var data = WorkoutService.Getwithuserworkout(id);
+                var data = UserService.GetUserwithuserworkout(id);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
