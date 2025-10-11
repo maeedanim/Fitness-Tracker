@@ -14,6 +14,7 @@ namespace DAL.Repos
         {
             db.Userworkouts.Add(obj);
             return db.SaveChanges() > 0;
+            
         }
 
         public bool Delete(int id)

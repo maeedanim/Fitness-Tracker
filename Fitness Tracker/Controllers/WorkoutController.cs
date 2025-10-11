@@ -116,9 +116,9 @@ namespace Fitness_Tracker.Controllers
             {
                 var success = WorkoutService.Delete(id);
                 if (!success)
-                    return Request.CreateResponse(HttpStatusCode.NotFound, new { Message = "User deletion failed." });
+                    return Request.CreateResponse(HttpStatusCode.NotFound, new { Message = "Workout deletion failed." });
 
-                return Request.CreateResponse(HttpStatusCode.OK, new { Message = "User deleted successfully." });
+                return Request.CreateResponse(HttpStatusCode.OK, new { Message = "Workout deleted successfully." });
             }
             catch (Exception ex)
             {

@@ -12,12 +12,19 @@ namespace DAL.Repos
     {
         public bool Create(Workout obj)
         {
-            throw new NotImplementedException();
+            db.Workouts.Add(obj);
+            return db.SaveChanges() > 0;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var workout = Read(id);
+            if (workout != null)
+            {
+                db.Workouts.Remove(workout);
+                return db.SaveChanges() > 0;
+            }
+            return false;
         }
 
         public List<Workout> Read()
@@ -32,7 +39,13 @@ namespace DAL.Repos
 
         public bool Update(Workout obj)
         {
-            throw new NotImplementedException();
+            var ex = Read(obj.Id);
+            if (ex != null)
+            {
+                db.Entry(ex).CurrentValues.SetValues(obj);
+                return db.SaveChanges() > 0;
+            }
+            return false;
         }
     }
 }
