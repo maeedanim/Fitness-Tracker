@@ -10,19 +10,23 @@ namespace BILL.DTOs
 {
     public class WorkoutDTO
     {
-        //copied from the model of workout model
         
         public int Id { get; set; }
+
         [Required]
         public string Title { get; set; }
+
         [Required]
-        public string Description { get; set; } // Brief description of the workout
+        public string Description { get; set; } 
+
         [Required]
-        public int Duration { get; set; } // Duration in minutes
+        public int Duration { get; set; } 
+
         [Required]
-        public int CaloriesBurned { get; set; } // Estimated calories burned
+        public int CaloriesBurned { get; set; }
+
         [Required]
-        public string DifficultyLevel { get; set; } // e.g., Beginner, Intermediate, Advanced
+        public string DifficultyLevel { get; set; } 
           
 
 

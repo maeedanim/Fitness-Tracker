@@ -22,10 +22,9 @@ namespace DAL.Models
         [StringLength(350)]
         public string Description { get; set; } // Brief description of the goal
 
-        [Required]
+      
         public DateTime Startdate { get; set; } // Target date to achieve the goal
 
-        [Required]
         public DateTime Enddate { get; set; } // Date when the goal was created
 
         public string Status { get; set; } // e.g., Not Started, In Progress, Completed

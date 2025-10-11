@@ -12,10 +12,14 @@ namespace BILL.DTOs
      
      
         public string Tkey { get; set; }
+
         [Required]
         public DateTime CreatedAt { get; set; }
+
         public DateTime? Expiry { get; set; }
+
         public string Uname { get; set; }
+
 
 
 

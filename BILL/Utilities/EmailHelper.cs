@@ -16,7 +16,7 @@ namespace BILL.Utilities
             {
                 var fromAddress = new MailAddress("animmaeed@gmail.com", "Fitness Tracker");
                 var toAddress = new MailAddress(toEmail);
-                const string fromPassword = "xcri ghax fbve lyvs"; // Use Gmail App Password, not your main password!
+                const string fromPassword = "xcri ghax fbve lyvs"; 
 
                 var smtp = new SmtpClient
                 {

@@ -14,6 +14,9 @@ namespace BILL.Services
     {
         public static TokenDTO Authenticate(string uname, string password)
         {
+
+
+
             var res = DataAccessFactory.AuthData().Authenticate(uname, password);
             if (res)
             {
@@ -22,7 +25,7 @@ namespace BILL.Services
                 token.CreatedAt = DateTime.Now;
                 token.Tkey = Guid.NewGuid().ToString();
                 var ret = DataAccessFactory.TokenData().Create(token);
-                if (ret != null)
+                if (ret != null) 
                 {
                     var cfg = new MapperConfiguration(c =>
                     {
@@ -33,6 +36,32 @@ namespace BILL.Services
                 }
             }
                 return null;
+
+        }
+
+        public static bool IsTokenValid(string tkey)
+        {
+            var existingtoken = DataAccessFactory.TokenData().Read(tkey);
+            
+            if (existingtoken != null && existingtoken.Expiry == null)
+            {
+                return true;
+            }
+            return false;
+        }
+        public static bool Logout(string tkey)
+        {
+            var existingtoken = DataAccessFactory.TokenData().Read(tkey);
+            existingtoken.Expiry = DateTime.Now;
+            if (DataAccessFactory.TokenData().Update(existingtoken) != null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+
+            }
 
         }
     }

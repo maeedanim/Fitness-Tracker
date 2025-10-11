@@ -1,5 +1,6 @@
 ﻿using BILL.DTOs;
 using BILL.Services;
+using Fitness_Tracker.Auth;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,7 +43,7 @@ namespace Fitness_Tracker.Controllers
             }
         }
 
-
+        [Logged]
         [HttpGet]
         [Route("api/workout/{id}/userworkout")]
         public HttpResponseMessage Workoutwithuserworkout(int id)

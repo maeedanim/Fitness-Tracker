@@ -13,22 +13,23 @@ namespace BILL.DTOs
     {
        
         public int Id { get; set; }
+
         public int UserId { get; set; }
 
-        public string GoalType { get; set; } // e.g., Weight Loss, Muscle Gain, Endurance
+        public string GoalType { get; set; } 
 
         [Required]
         [StringLength(350)]
-        public string Description { get; set; } // Brief description of the goal
+        public string Description { get; set; } 
 
 
-        public DateTime Startdate { get; set; } // Target date to achieve the goal
+        public DateTime Startdate { get; set; } 
 
 
-        public DateTime Enddate { get; set; } // Date when the goal was created
+        public DateTime Enddate { get; set; } 
 
         [Required]
-        public string Status { get; set; } // e.g., Not Started, In Progress, Completed
+        public string Status { get; set; } 
 
     }
 }

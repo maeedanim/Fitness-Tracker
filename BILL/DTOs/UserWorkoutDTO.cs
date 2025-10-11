@@ -12,16 +12,13 @@ namespace BILL.DTOs
     public class UserWorkoutDTO
     {
    
-        public int Id { get; set; }
+        public int Id { get; set; }        
 
-        
         public int UserId { get; set; }
 
         public int WorkoutId { get; set; }
 
-     
         public int BurnedCalories { get; set; }
-
 
         public DateTime Date { get; set; }
 
