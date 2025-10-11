@@ -33,7 +33,7 @@ namespace DAL.Models
  
         public string Role { get; set; } 
 
-        [Required]
+     
         public DateTime CreatedAt { get; set; }
 
 

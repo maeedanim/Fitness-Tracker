@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BILL.DTOs;
+using BILL.Utilities;
 using DAL;
 using DAL.Models;
 using Microsoft.SqlServer.Server;
@@ -52,6 +53,38 @@ namespace BILL.Services
             var mapped = mapper.Map<WorkoutUserWorkoutDTO>(data);
             return mapped;
         }
+
+
+        public static bool Create(WorkoutDTO dto)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<WorkoutDTO, Workout>();
+            });
+            var mapper = new Mapper(cfg);
+            var workout = mapper.Map<Workout>(dto);
+            return DataAccessFactory.WorkoutData().Create(workout);
+        }
+
+        /*
+        public static bool Update(WorkoutDTO dto)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<WorkoutDTO, Workout>();
+            });
+            var mapper = new Mapper(cfg);
+            var workout = mapper.Map<Workout>(dto);
+            return DataAccessFactory.WorkoutData().Update(workout);
+        }
+        */
+
+
+        public static bool Delete(int id)
+        {
+            return DataAccessFactory.WorkoutData().Delete(id);
+        }
+
 
 
     }

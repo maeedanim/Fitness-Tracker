@@ -37,5 +37,41 @@ namespace BILL.Services
             var mapped = mapper.Map<UserWorkoutDTO>(data);
             return mapped;
         }
+
+
+        
+        public static bool Create(UserWorkoutDTO dto)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<UserWorkoutDTO, Userworkout>();
+            });
+            var mapper = new Mapper(cfg);
+            var entity = mapper.Map<Userworkout>(dto);
+
+            return DataAccessFactory.UserworkoutData().Create(entity);
+        }
+
+        /*
+        public static bool Update(UserWorkoutDTO dto)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<UserWorkoutDTO, Userworkout>();
+            });
+            var mapper = new Mapper(cfg);
+            var entity = mapper.Map<Userworkout>(dto);
+
+            return DataAccessFactory.UserworkoutData().Update(entity);
+        }
+        */
+       
+        public static bool Delete(int id)
+        {
+            return DataAccessFactory.UserworkoutData().Delete(id);
+        }
+
+
+
     }
 }

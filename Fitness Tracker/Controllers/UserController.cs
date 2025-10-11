@@ -1,4 +1,5 @@
-﻿using BILL.Services;
+﻿using BILL.DTOs;
+using BILL.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -71,6 +72,83 @@ namespace Fitness_Tracker.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
+
+
+
+
+        [HttpPost]
+        [Route("api/user")]
+        public HttpResponseMessage Create(UserDTO user)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, ModelState);
+
+                var data = UserService.Create(user);
+                if (data == null)
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, new { Message = "User creation failed." });
+
+                return Request.CreateResponse(HttpStatusCode.Created, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
+            }
+        }
+
+
+
+        [HttpPut]
+        [Route("api/user/{id}")]
+        public HttpResponseMessage Update(int id, UpdateUserDTO user)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, ModelState);
+
+               
+                var success = UserService.Update(id, user);
+
+                if (!success)
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, new { Message = "User update failed." });
+
+                return Request.CreateResponse(HttpStatusCode.OK, new { Message = "User updated successfully." });
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
+            }
+        }
+
+
+
+
+        [HttpDelete]
+        [Route("api/user/{id}")]
+        public HttpResponseMessage Delete(int id)
+        {
+            try
+            {
+                var success = UserService.Delete(id);
+                if (!success)
+                    return Request.CreateResponse(HttpStatusCode.NotFound, new { Message = "User deletion failed." });
+
+                return Request.CreateResponse(HttpStatusCode.OK, new { Message = "User deleted successfully." });
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
+            }
+        }
+
+
+
+
+
+
+
 
 
 

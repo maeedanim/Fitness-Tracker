@@ -22,7 +22,7 @@ namespace DAL.Models
         [Required]
         public int BurnedCalories { get; set; }
 
-        [Required]
+
         public DateTime Date { get; set; }
 
         public virtual User User { get; set; }

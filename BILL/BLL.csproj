@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTOs\GoalsDTO.cs" />
+    <Compile Include="DTOs\UpdateUserDTO.cs" />
     <Compile Include="DTOs\UserDTO.cs" />
     <Compile Include="DTOs\TokenDTO.cs" />
     <Compile Include="DTOs\UserwithUserWorkout.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Services\UserService.cs" />
     <Compile Include="Services\UserWorkoutService.cs" />
     <Compile Include="Services\WorkoutService.cs" />
+    <Compile Include="Utilities\EmailHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

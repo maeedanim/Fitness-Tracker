@@ -63,6 +63,10 @@
     <Compile Include="Migrations\202510102105587_TokenDB.Designer.cs">
       <DependentUpon>202510102105587_TokenDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202510111408485_auth.cs" />
+    <Compile Include="Migrations\202510111408485_auth.Designer.cs">
+      <DependentUpon>202510111408485_auth.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Goal.cs" />
     <Compile Include="Models\Token.cs" />
@@ -87,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202510102105587_TokenDB.resx">
       <DependentUpon>202510102105587_TokenDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202510111408485_auth.resx">
+      <DependentUpon>202510111408485_auth.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

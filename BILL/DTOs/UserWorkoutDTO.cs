@@ -19,10 +19,10 @@ namespace BILL.DTOs
 
         public int WorkoutId { get; set; }
 
-        [Required]
+     
         public int BurnedCalories { get; set; }
 
-        [Required]
+
         public DateTime Date { get; set; }
 
     }

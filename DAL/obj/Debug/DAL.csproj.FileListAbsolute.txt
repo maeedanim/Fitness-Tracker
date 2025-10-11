@@ -13,3 +13,4 @@ E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.pdb
 E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.Migrations.InitandtokenDB.resources
 E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.Migrations.TokenDB.resources
+E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.Migrations.auth.resources
