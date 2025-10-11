@@ -46,6 +46,7 @@ namespace BILL.Services
                 c.CreateMap<User, UserwithUserWorkout>();
                 c.CreateMap<Goal, GoalsDTO>();
                 c.CreateMap<Userworkout, UserWorkoutDTO>();
+                c.CreateMap<Workout, WorkoutDTO>();
             });
             var mapper = new Mapper(cfg);
             var mapped = mapper.Map<UserwithUserWorkout>(data);

@@ -10,5 +10,6 @@ E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.csproj.CoreCompileInput
 E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.csproj.Up2Date
 E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.dll
 E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.pdb
-E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.Migrations.initdb.resources
+E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.Migrations.InitandtokenDB.resources
 E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+E:\Fitness Tracker App\Fitness-Tracker\DAL\obj\Debug\DAL.Migrations.TokenDB.resources

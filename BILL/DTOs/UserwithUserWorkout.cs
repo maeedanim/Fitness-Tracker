@@ -16,6 +16,8 @@ namespace BILL.DTOs
             UserWorkouts = new List<UserWorkoutDTO>();
             Goals = new List<GoalsDTO>();
             
+
+            
         }
 
     }

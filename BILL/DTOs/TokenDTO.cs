@@ -1,26 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.Models
+namespace BILL.DTOs
 {
-    public class Token
+    public class TokenDTO
     {
-        [Key]
-        public int Id { get; set; }
-        [Required]
-        [StringLength(100)]
+     
+     
         public string Tkey { get; set; }
         [Required]
-        public DateTime CreatedAt{ get; set; }
+        public DateTime CreatedAt { get; set; }
         public DateTime? Expiry { get; set; }
-        [Required]
         public string Uname { get; set; }
-        
+
+
 
     }
 }

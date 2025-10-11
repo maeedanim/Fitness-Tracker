@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BILL.DTOs
+namespace DAL.Interfaces
 {
-    public class UserGoalDTO
+    public interface IAuth<Ret>
     {
+        Ret Authenticate(string username, string password);
 
     }
 }

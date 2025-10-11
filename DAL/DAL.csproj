@@ -53,10 +53,15 @@
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="FTContext.cs" />
+    <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
-    <Compile Include="Migrations\202510101923353_initdb.cs" />
-    <Compile Include="Migrations\202510101923353_initdb.Designer.cs">
-      <DependentUpon>202510101923353_initdb.cs</DependentUpon>
+    <Compile Include="Migrations\202510102015330_InitandtokenDB.cs" />
+    <Compile Include="Migrations\202510102015330_InitandtokenDB.Designer.cs">
+      <DependentUpon>202510102015330_InitandtokenDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202510102105587_TokenDB.cs" />
+    <Compile Include="Migrations\202510102105587_TokenDB.Designer.cs">
+      <DependentUpon>202510102105587_TokenDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Goal.cs" />
@@ -67,6 +72,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\GoalRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\TokenRepo.cs" />
     <Compile Include="Repos\UserRepo.cs" />
     <Compile Include="Repos\UserworkoutRepo.cs" />
     <Compile Include="Repos\WorkoutRepo.cs" />
@@ -76,8 +82,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202510101923353_initdb.resx">
-      <DependentUpon>202510101923353_initdb.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202510102015330_InitandtokenDB.resx">
+      <DependentUpon>202510102015330_InitandtokenDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202510102105587_TokenDB.resx">
+      <DependentUpon>202510102105587_TokenDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
