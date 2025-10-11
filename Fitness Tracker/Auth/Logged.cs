@@ -17,7 +17,7 @@ namespace Fitness_Tracker.Auth
             if (token == null)
             {
                 actionContext.Response = 
-                    actionContext.Request.CreateResponse(System.Net.HttpStatusCode.Unauthorized, new { Msg = "No tken supplied" });
+                    actionContext.Request.CreateResponse(System.Net.HttpStatusCode.Unauthorized, new { Msg = "No token supplied" });
                 
             }
             else if (!AuthService.IsTokenValid(token.ToString()))
